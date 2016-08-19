@@ -1,18 +1,8 @@
 package org.bbop.apollo
 
 class Publication {
-    static constraints = {		
-        title nullable: true		
-        volumeTitle nullable: true		
-        volume nullable: true		
-        seriesName nullable: true		
-        issue nullable: true		
-        publicationYear nullable: true		
-        pages nullable: true		
-        miniReference nullable: true		
-        isObsolete nullable: true, defaultValue: false
-        publisher nullable: true		
-        publicationPlace nullable: true		
+
+    static constraints = {
     }
 
     CVTerm type;

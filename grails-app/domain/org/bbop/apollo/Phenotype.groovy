@@ -1,11 +1,7 @@
 package org.bbop.apollo
 class Phenotype {
-    static constraints = {		
-        attribute nullable: true		
-        assay nullable: true		
-        cvalue nullable: true		
-        observable nullable: true		
-        value nullable: true		
+
+    static constraints = {
     }
 
     CVTerm attribute;
