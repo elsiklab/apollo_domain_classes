@@ -16,6 +16,8 @@ class Organism {
         blatdb nullable: true
         metadata nullable: true
         commonName nullable: false
+        nonDefaultTranslationTable nullable: true,blank: false
+        dataAddedViaWebServices nullable: true
     }
 
     String abbreviation;
@@ -27,8 +29,9 @@ class Organism {
     boolean publicMode;
     String blatdb;
     String directory
-
+    String nonDefaultTranslationTable
     String metadata
+    Boolean dataAddedViaWebServices
 
     static hasMany = [
             organismProperties: OrganismProperty
